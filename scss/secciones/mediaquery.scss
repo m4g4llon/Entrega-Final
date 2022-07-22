@@ -1,0 +1,142 @@
+@media (max-width:1000px) {
+    .navbar li:hover {
+        background-color: rgb(210, 236, 237);
+        border-radius: 10px;
+        font-size: 115%;
+    }
+
+    .grilla {
+        grid-template-areas:
+            "seccion1 seccion1 seccion1 seccion1"
+            "seccion2 seccion2 seccion2 seccion2"
+            "suscripcion suscripcion suscripcion suscripcion"
+            "footer footer footer footer";
+    }
+
+    .seccion1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .titular1 {
+        max-width: 80vw;
+        align-items: center;
+
+
+        h1 {
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: medium;
+            text-align: center;
+        }
+    }
+
+    .imagenTitular img {
+        max-height: 600px;
+    }
+
+    .seccion2 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        iframe {
+            max-width: 450px;
+        }
+    }
+
+    .titular2 {
+        max-width: 80vw;
+        align-items: center;
+        margin-left: 0;
+
+        h1 {
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: medium;
+            text-align: center;
+        }
+    }
+
+    .titular3 {
+        max-width: 80vw;
+        align-items: center;
+        margin-left: 0;
+
+        h1 {
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: medium;
+            text-align: center;
+        }
+    }
+
+    .titular4 {
+        max-width: 80vw;
+        align-items: center;
+        margin-left: 0;
+
+        h1 {
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 200%;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 10px;
+            font-size: medium;
+            text-align: center;
+        }
+    }
+
+    .imagenTitular2 {
+        margin-top: 20px;
+
+
+        img {
+            margin-left: 0;
+        }
+    }
+
+    .suscripcion {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .form input:focus {
+        display: none;
+    }
+
+    .footer li:hover {
+        background-color: rgb(105, 144, 192);
+        border-radius: 0;
+        font-size: 100%;
+        max-height: auto;
+        
+    }
+}
